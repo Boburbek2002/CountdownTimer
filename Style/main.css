@@ -1,0 +1,51 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://images.pexels.com/photos/1573707/pexels-photo-1573707.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') center no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 10%;
+}
+.container h1 {
+  font-size: 3rem;
+}
+.left-time {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.left-time > div {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.left-time h2 {
+  font-size: 5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.left-time p {
+  font-size: 1.5rem;
+}
